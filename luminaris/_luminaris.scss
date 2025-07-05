@@ -44,3 +44,14 @@
       animation: flotar random(15)+5s linear infinite;
     }
   }
+  .medusa {
+    width: 100px;
+    height: 100px;
+    background-image: url("../imagenes/medusa.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+  }
+  
