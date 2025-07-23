@@ -10,15 +10,34 @@
   <link rel="stylesheet" href="SASS/css/style.css" />
   <link rel="stylesheet" href="style.css" />
   <style>
+a {
+      color: #f6cd4c;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ffe17e;
+      text-decoration: underline;
+    }
+
     .btn-lectura {
       background-color: #f6cd4c;
-      color: #00446a;
+      color: #00131f;
       border: none;
       font-weight: bold;
     }
     .btn-lectura:hover {
-      background-color: #e2b935;
-      color: #002c46;
+      background-color: #f6cd4c;
+      color: #001b2a;
+    }
+    .contenido-donantes a {
+    color: #f6cd4c;
+    text-decoration: none;
+    }
+
+    .contenido-donantes a:hover {
+    color: #ffe17e;
+    text-decoration: underline;
     }
   </style>
 </head>
@@ -38,10 +57,13 @@
 
     <h3 class="mt-5">📖 Contenido exclusivo para donantes</h3>
     <p>Accedé a materiales únicos que forman parte del universo *Dos Hermanas*:</p>
-    <ul>
-      <li><strong>Capítulos 1 y 2 liberado:</strong> <a href="capitulos.html" class="link-light">“Primeros pasos en el hábitat”</a></li>
-      <li><strong>Fichas de personajes:</strong> <a href="personajes.html" class="link-light">Mizu, Bumi, Kokoro, Logam y más</a></li>
-    </ul>
+    <div class="contenido-donantes">
+      <ul>
+        <li><strong>Capítulos 1 y 2 liberado:</strong> <a href="capitulos.html">“Primeros pasos en el hábitat”</a></li>
+        <li><strong>Fichas de personajes:</strong> <a href="personajes.html">Mizu, Bumi, Kokoro, Logam y más</a></li>
+      </ul>
+    </div>
+  
 
     <div class="text-center my-4">
       <a href="capitulos.html" class="btn btn-lectura btn-lg">📘 Leer los primeros capítulos</a>
@@ -50,7 +72,7 @@
   <!-- CONTENIDO PRINCIPAL -->
   <main class="container text-center py-5">
     <h2 class="section__title" style="color: #f9f0da;"> Apoyá económicamente</h2>
-    <p class="section__text">Tu aporte hace posible la ilustración, edición y expansión de este proyecto. Desde un café hasta un sponsor, cada contribución impulsa esta historia.</p>
+    <p class="section__text">Tu aporte hace posible la ilustración, edición y expansión de este proyecto. Desde un café, a inversor/a, mecenas, hasta un sponsor, cada contribución impulsa esta historia.</p>
     <a href="#datos" class="cta-button btn-yellow">Quiero apoyar</a>
 
     <section id="datos" class="mt-5 p-4" style="background-color: #f9f0da; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
