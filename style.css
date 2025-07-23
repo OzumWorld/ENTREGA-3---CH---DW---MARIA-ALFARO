@@ -223,6 +223,15 @@ footer {
   margin-bottom: 0.4rem;
 }
 
+.capitulo p {
+  margin-bottom: 1.8rem; /* más espacio entre párrafos */
+}
+
+.capitulo p {
+  text-indent: 2em;
+}
+
+
 .section__title {
   color: #00446a;
 }
