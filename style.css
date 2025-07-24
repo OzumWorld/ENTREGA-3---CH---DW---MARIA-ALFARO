@@ -456,6 +456,41 @@ li {
   color: #002f4c;
 }
 
+.grimorio-bg {
+  background-color: #f9f0da;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  margin-bottom: 3rem;
+}
+
+.ficha-nombre {
+  font-family: 'Georgia', serif;
+  color: #092665;
+  font-size: 2rem;
+}
+
+.ficha-rol {
+  color: #5a3e36;
+  font-weight: 600;
+}
+
+.ficha-frase {
+  font-style: italic;
+  color: #444;
+  margin: 1rem 0;
+}
+
+.ficha-detalle li {
+  margin-bottom: 0.5rem;
+}
+
+.sombra-ficha {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  border: 2px solid #d2b48c;
+  border-radius: 10px;
+}
+
 
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(20px); }
