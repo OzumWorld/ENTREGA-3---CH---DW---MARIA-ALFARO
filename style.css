@@ -487,8 +487,33 @@ li {
 
 .sombra-ficha {
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  border: 2px solid #d2b48c;
+  border: 2px solid #f6cd4c;
   border-radius: 10px;
+}
+
+.btn-magico {
+  background: linear-gradient(135deg, #f6cd4c, #f6cd4c);
+  border: none;
+  color: #00446a;
+  font-weight: bold;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(205, 135, 50, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-magico:hover {
+  transform: scale(1.05);
+  background-color: #f6cd4c;
+  box-shadow: #f6cd4c;
+  size-adjust: 1rem;
+}
+
+.mensaje-magico {
+  font-family: 'Georgia', serif;
+  color: #f6cd4c;
+  font-size: 0.95rem;
 }
 
 
