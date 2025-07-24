@@ -516,6 +516,25 @@ li {
   font-size: 0.95rem;
 }
 
+.portal-secreto {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.glifo-secreto {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #f1e0b0;
+  transition: transform 0.3s ease;
+}
+
+.glifo-secreto:hover {
+  transform: scale(1.3);
+  text-shadow: 0 0 8px gold;
+}
+
 
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(20px); }
